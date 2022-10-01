@@ -8,7 +8,7 @@ services:
       - PUID=501
       - PGID=20
       - TZ=Asia/Seoul
-      - UMASK=022
+      - UMASK=640
       # - PASSWORD=qwe123 #optional
       # - HASHED_PASSWORD= #optional
       # - SUDO_PASSWORD=qwe123 #optional
